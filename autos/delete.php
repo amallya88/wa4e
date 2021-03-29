@@ -28,6 +28,19 @@ if ( $row === false ) {
 }
 
 ?>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>73574de5 Automobile Tracker</title>
+<?php require_once "bootstrap.php"; ?>
+</head>
+
+<body>
+
+<div class="container">
+
 <p>Confirm: Deleting <?= htmlentities($row['make']) ?></p>
 
 <form method="post">
@@ -35,3 +48,7 @@ if ( $row === false ) {
 <input type="submit" value="Delete" name="delete">
 <a href="index.php">Cancel</a>
 </form>
+</div>
+
+</body>
+</html>
