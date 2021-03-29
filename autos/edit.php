@@ -4,7 +4,6 @@ session_start();
 
 // If the user pressed cancel editing go back to index.php
 if ( isset($_POST['cancel']) ) {
-	error_log("cancelling edit...");
     header('Location: index.php');
     return;
 }
